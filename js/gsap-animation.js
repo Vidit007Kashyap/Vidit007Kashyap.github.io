@@ -922,7 +922,7 @@ function pbmit_iconbox_style16(){
 	}
 	pbmit1_var.each(function( index ) {
 		var f_letter = $(this).find('.pbmit-element-title').text();
-		$(this).find('.pbmit-ihbox-title-image .pbmit-element-title').text(f_letter.charAt(0));
+		// $(this).find('.pbmit-ihbox-title-image .pbmit-element-title').text(f_letter.charAt(0));
 	});	
 }
 
